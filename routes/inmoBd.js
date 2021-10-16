@@ -6,6 +6,7 @@ const router = express.Router();
 import inmoBD from '../models/inmoBD';
 
 
+
 //Agregar una registro
 
 router.post('/nuevo-registro', async(req,res)=>{
